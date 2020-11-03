@@ -1,0 +1,113 @@
+body{
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: ivory;
+}
+/* body *{
+    display: block;
+} */
+.big-box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    margin: 5px;
+
+}
+.red-box{
+    width: 60px;
+    height: 60px;
+    background-color: lightcoral;
+}
+.green-box{
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+}
+.one .green-box{
+    position: relative;
+    bottom: -10px;
+    right: -70px;
+}
+.two .red-box{
+    position: relative;
+    bottom: -40px;
+    left: 0px;
+}
+.two>.green-box{
+    position: relative;
+    top: -60px;
+    right: -70px;
+}
+.three .red-box{
+    position: relative;
+    top: 40px;
+    right: -40px;
+}
+.three>.green-box{
+    position: relative;
+    top: -60px;
+    right: -70px;
+}
+.four .red-box{
+    position: relative;
+    bottom: -40px;
+    left: 0px;
+}
+.four>.green-box{
+    position: relative;
+    top: 10px;
+    right: -30px;
+}
+.five .red-box{
+    position: relative;
+    bottom: 0px;
+    left: 40px;
+}
+.five>.green-box{
+    position: relative;
+    top: -30px;
+    right: -40px;
+}
+.six .red-box{
+    position: relative;
+    top: 40px;
+    right: -40px;
+}
+.six>.green-box{
+    position: relative;
+    top: -20px;
+    right: -70px;
+}
+.seven .red-box{
+    position: relative;
+    top: 0px;
+    left: 20px;
+}
+.seven>.green-box{
+    position: relative;
+    top: 10px;
+    right: 0px;
+}
+.eight .red-box{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.eight>.green-box{
+    position: relative;
+    top: 10px;
+    right: -35px;
+}
+.nine .red-box{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.nine>.green-box{
+    position: relative;
+    top: -25px;
+    right: -35px;
+}
+
